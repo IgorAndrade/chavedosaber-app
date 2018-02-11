@@ -1,3 +1,3 @@
-# Ionic 3 Start Theme
+# Chave do Saber
 
-Ionic 3 Start Theme with 10 Pages, mock data, providers samples, Storage, Http and more...
+Aplicativo para escola
