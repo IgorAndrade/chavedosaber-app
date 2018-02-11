@@ -25,6 +25,8 @@ import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 import { TabsPage } from "../pages/tabs/tabs";
+import { MuralPage } from "../pages/mural/mural";
+import { CabecalhoComponent } from "../components/cabecalho/cabecalho";
 
 // import services
 // end import services
@@ -46,7 +48,9 @@ import { TabsPage } from "../pages/tabs/tabs";
     SearchLocationPage,
     TripDetailPage,
     TripsPage,
-    TabsPage
+    TabsPage,
+    MuralPage,
+    CabecalhoComponent
   ],
   imports: [
     BrowserModule,
@@ -74,7 +78,8 @@ import { TabsPage } from "../pages/tabs/tabs";
     SearchLocationPage,
     TripDetailPage,
     TripsPage,
-    TabsPage
+    TabsPage,
+    MuralPage
   ],
   providers: [
     StatusBar,

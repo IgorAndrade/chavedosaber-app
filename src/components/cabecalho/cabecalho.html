@@ -1,17 +1,16 @@
-<!-- -->
 <ion-header>
   <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>
-      <strong>Ionic 3</strong> Start Theme
+      <strong>{{titulo}}</strong>
     </ion-title>
     <ion-buttons end>
-      <button ion-button tappable >
+      <button ion-button tappable>
         <ion-icon name="notifications"></ion-icon>
       </button>
-      <button ion-button tappable >
+      <button ion-button tappable>
         <ion-icon name="cog"></ion-icon>
       </button>
     </ion-buttons>
@@ -19,11 +18,5 @@
 </ion-header>
 
 <ion-content padding class="animated fadeIn common-bg">
-  Home
-<button ion-button icon-start block color="dark" tappable (click)="go()">click</button>
-  d
-  d
-  <div></div>
+  <ng-content></ng-content>
 </ion-content>
-
-

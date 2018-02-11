@@ -1,8 +1,10 @@
+import { LoginPage } from './../login/login';
 import { HomePage } from './../home/home';
 import { NotificationsPage } from './../notifications/notifications';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { RegisterPage } from '../register/register';
+import { MuralPage } from '../mural/mural';
 
 /**
  * Generated class for the TabsPage page.
@@ -17,7 +19,7 @@ import { RegisterPage } from '../register/register';
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
+  tab1Root = MuralPage;
   tab2Root = NotificationsPage
   tab3Root = HomePage;
   tab4Root = RegisterPage
