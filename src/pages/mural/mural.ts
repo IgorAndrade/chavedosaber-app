@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import MuralProvider from '../../services/mural/mural';
+import Mural from '../../model/mural';
 /**
  * Generated class for the MuralPage page.
  *
@@ -13,12 +14,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'mural.html',
 })
 export class MuralPage {
+  public lista: Mural[]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private muralService: MuralProvider) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MuralPage');
+    this.muralService.getAll()
+      .subscribe((lista)=>this.lista=lista)
   }
 
 }

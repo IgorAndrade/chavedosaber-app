@@ -27,6 +27,7 @@ import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 import { TabsPage } from "../pages/tabs/tabs";
 import { MuralPage } from "../pages/mural/mural";
 import { CabecalhoComponent } from "../components/cabecalho/cabecalho";
+import MuralProvider from "../services/mural/mural";
 
 // import services
 // end import services
@@ -87,7 +88,8 @@ import { CabecalhoComponent } from "../components/cabecalho/cabecalho";
     Keyboard,
     ActivityService,
     TripService,
-    WeatherProvider
+    WeatherProvider,
+    MuralProvider
   ]
 })
 
