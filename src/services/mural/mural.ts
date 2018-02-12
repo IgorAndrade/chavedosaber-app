@@ -1,6 +1,5 @@
 import { mock } from './mock-mural';
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import Mural from '../../model/mural';
 import { Observable } from 'rxjs/Observable';

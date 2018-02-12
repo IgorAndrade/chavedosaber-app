@@ -28,6 +28,7 @@ import { TabsPage } from "../pages/tabs/tabs";
 import { MuralPage } from "../pages/mural/mural";
 import { CabecalhoComponent } from "../components/cabecalho/cabecalho";
 import MuralProvider from "../services/mural/mural";
+import { EventoComponent } from "../components/evento/evento";
 
 // import services
 // end import services
@@ -51,7 +52,8 @@ import MuralProvider from "../services/mural/mural";
     TripsPage,
     TabsPage,
     MuralPage,
-    CabecalhoComponent
+    CabecalhoComponent,
+    EventoComponent
   ],
   imports: [
     BrowserModule,
