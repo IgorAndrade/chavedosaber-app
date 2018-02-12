@@ -1,5 +1,5 @@
 <div class="trip-info card round" margin-bottom>
-  <div class="trip-image border-bottom" >
+  <div class="evento-image border-bottom" >
     <img src="{{item.img}}">
   </div>
   <ion-grid padding>
@@ -11,7 +11,7 @@
         </div>
       </ion-col>
       <ion-col col-4>
-        <span ion-text color="dark">{{ item.data | date: 'EEE, MMM dd' }}</span>
+        <span ion-text color="dark">{{ item.data | date: 'EEE, dd MMM yyyy' }}</span>
       </ion-col>
     </ion-row>
   </ion-grid>

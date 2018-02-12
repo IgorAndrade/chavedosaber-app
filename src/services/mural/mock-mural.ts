@@ -10,8 +10,8 @@ export let mock: Mural[] = [{
 },
 {
     "type": MuralTypes.EVENTO,
-    "titulo": "Matriculas Abertas",
-    "texto": "Faça já sua matricula",
-    "img": "../assets/img/matricula.jpg",
-    "data":new Date()
+    "titulo": "Formatura 2017",
+    "texto": "",
+    "img": "../assets/img/formatura.jpg",
+    "data":new Date("2017-12-11")
 }];
