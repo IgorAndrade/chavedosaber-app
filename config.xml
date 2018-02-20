@@ -3,7 +3,7 @@
     <name>Chave do Saber</name>
     <description>Chave do Saber</description>
     <author email="andrade.igor@gmail.com" href="https://ionictheme.com">Igor Andrade</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.0.5:8101" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -91,5 +91,6 @@
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="cordova-sqlite-storage" spec="~2.1.4" />
     <engine name="android" spec="~6.1.2" />
-    <engine name="ios" spec="~4.0.0" />
+    <engine name="ios" spec="~4.5.3" />
+    <allow-navigation href="http://192.168.0.5:8101" />
 </widget>

@@ -1,7 +1,5 @@
 import { Component } from "@angular/core";
-import { NavController, PopoverController } from "ionic-angular";
-import { RegisterPage } from "../register/register";
-import { NotificationsPage } from "../notifications/notifications";
+import { NavController } from "ionic-angular";
 import { CheckoutTripPage } from "../checkout-trip/checkout-trip";
 
 @Component({

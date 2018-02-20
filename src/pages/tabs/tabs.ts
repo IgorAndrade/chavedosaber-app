@@ -1,4 +1,3 @@
-import { LoginPage } from './../login/login';
 import { HomePage } from './../home/home';
 import { NotificationsPage } from './../notifications/notifications';
 import { Component } from '@angular/core';

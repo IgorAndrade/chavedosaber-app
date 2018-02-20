@@ -14,7 +14,6 @@ import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export default class MuralProvider {
-  private lista: Mural[]
   constructor() {
   }
 
